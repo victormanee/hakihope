@@ -1,4 +1,4 @@
-import logoUrl from "@/assets/logo.png";
+import logoUrl from "@/assets/logo1.jpeg";
 
 export function HakiLogo({ className = "h-9 w-9" }: { className?: string }) {
   return (
