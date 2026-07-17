@@ -1,0 +1,171 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-BJUmOrvp.js
+var tsrStartManifest = () => ({ routes: {
+	__root__: {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/__root.tsx",
+		children: [
+			"/",
+			"/about",
+			"/ai",
+			"/auth",
+			"/contact",
+			"/dashboard",
+			"/emergency",
+			"/find-lawyer",
+			"/resources",
+			"/rights",
+			"/sitemap.xml",
+			"/api/chat"
+		],
+		preloads: ["/assets/index-R2MChOcf.js", "/assets/client-BnMQyWJs.js"],
+		scripts: [{ attrs: {
+			type: "module",
+			async: !0,
+			src: "/assets/index-R2MChOcf.js"
+		} }]
+	},
+	"/": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/index.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/roots-DyplJH5x.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/arrow-right-BGdAj0ph.js",
+			"/assets/book-open-5dOuQM6b.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/map-pin-D4wxLoGq.js",
+			"/assets/scale-BzIae-ld.js",
+			"/assets/shield-check-DT7ensXp.js",
+			"/assets/siren-B-8-fTEn.js",
+			"/assets/sparkles-Bv1kYgBg.js",
+			"/assets/site-footer-8sLjtGwj.js"
+		]
+	},
+	"/about": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/about.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/about-A7yjuZYz.js",
+			"/assets/heart-BSBtdl-X.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/shield-check-DT7ensXp.js",
+			"/assets/sparkles-Bv1kYgBg.js",
+			"/assets/site-footer-8sLjtGwj.js"
+		]
+	},
+	"/ai": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/ai.tsx",
+		children: ["/ai/$threadId"],
+		preloads: [
+			"/assets/ai-DzGoQ0L1.js",
+			"/assets/chat.functions-BCfGDsd8.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/sparkles-Bv1kYgBg.js"
+		]
+	},
+	"/auth": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/auth.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/auth-CBoqCZDx.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/scale-BzIae-ld.js",
+			"/assets/input-C0lfCqE0.js",
+			"/assets/label-Bgc06BSa.js"
+		]
+	},
+	"/contact": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/contact.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/contact-C6G3KoxF.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/message-square-DbRXfd1j.js",
+			"/assets/phone-DhaB_eqh.js",
+			"/assets/site-footer-8sLjtGwj.js",
+			"/assets/input-C0lfCqE0.js",
+			"/assets/label-Bgc06BSa.js"
+		]
+	},
+	"/dashboard": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/dashboard.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/dashboard-D6MB3Yto.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/message-square-DbRXfd1j.js",
+			"/assets/search-ClC_TUFI.js",
+			"/assets/sparkles-Bv1kYgBg.js",
+			"/assets/site-footer-8sLjtGwj.js"
+		]
+	},
+	"/emergency": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/emergency.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/emergency-Dm4Bus-y.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/map-pin-D4wxLoGq.js",
+			"/assets/phone-DhaB_eqh.js",
+			"/assets/siren-B-8-fTEn.js",
+			"/assets/site-footer-8sLjtGwj.js"
+		]
+	},
+	"/find-lawyer": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/find-lawyer.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/find-lawyer-Cb6yWDm2.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/heart-BSBtdl-X.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/map-pin-D4wxLoGq.js",
+			"/assets/search-ClC_TUFI.js",
+			"/assets/shield-check-DT7ensXp.js",
+			"/assets/video-2KpJTZhC.js",
+			"/assets/site-footer-8sLjtGwj.js",
+			"/assets/input-C0lfCqE0.js"
+		]
+	},
+	"/resources": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/resources.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/resources-CSfSYoZw.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/book-open-5dOuQM6b.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/video-2KpJTZhC.js",
+			"/assets/site-footer-8sLjtGwj.js"
+		]
+	},
+	"/rights": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/rights.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/rights-C1YNKpKL.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/arrow-right-BGdAj0ph.js",
+			"/assets/book-open-5dOuQM6b.js",
+			"/assets/site-nav-Cn2cpCu_.js",
+			"/assets/search-ClC_TUFI.js",
+			"/assets/sparkles-Bv1kYgBg.js",
+			"/assets/site-footer-8sLjtGwj.js",
+			"/assets/input-C0lfCqE0.js"
+		]
+	},
+	"/ai/$threadId": {
+		filePath: "C:/Users/Victor/Downloads/hakihope/src/roots/ai.$threadId.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/ai._threadId-DDFLJ_X7.js",
+			"/assets/button-gKhK5LZd.js",
+			"/assets/message-square-DbRXfd1j.js"
+		]
+	}
+} });
+//#endregion
+export { tsrStartManifest };
