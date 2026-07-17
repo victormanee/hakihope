@@ -42,6 +42,9 @@ export function SiteFooter() {
           <div>© {new Date().getFullYear()} HakiHope. Justice Within Reach.</div>
           <div>Made with hope for Kenya.</div>
         </div>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-5 text-center text-xs text-muted-foreground">
+          Created by Victor Manee
+        </div>
       </div>
     </footer>
   );
