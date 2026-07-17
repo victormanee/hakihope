@@ -12,7 +12,7 @@
     "format": "node ./node_modules/prettier/bin/prettier.cjs --write ."
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^1",
