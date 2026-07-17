@@ -1,0 +1,189 @@
+import { a as __toESM } from "../_runtime.mjs";
+import { s as require_react } from "../_libs/@ai-sdk/react+[...].mjs";
+import { i as require_jsx_runtime } from "../_libs/@radix-ui/react-label+[...].mjs";
+import { t as Button } from "./button-Bcc3N_sy.mjs";
+import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { M as BookOpen, N as ArrowRight, d as Search, o as Sparkles } from "../_libs/lucide-react.mjs";
+import { t as SiteNav } from "./site-nav-BS29GeCV.mjs";
+import { t as SiteFooter } from "./site-footer-BkHNQSCw.mjs";
+import { t as Input } from "./input-B-7o0D0J.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/rights-DXGAn8pc.js
+var import_react = /* @__PURE__ */ __toESM(require_react());
+var import_jsx_runtime = require_jsx_runtime();
+var topics = [
+	{
+		slug: "employment",
+		title: "Employment Rights",
+		desc: "Fair dismissal, notice, wages, harassment, and safe working conditions.",
+		law: "Employment Act, 2007"
+	},
+	{
+		slug: "land",
+		title: "Land & Property",
+		desc: "Ownership, succession, boundary disputes, title deeds, and evictions.",
+		law: "Land Act, 2012"
+	},
+	{
+		slug: "family",
+		title: "Family Law",
+		desc: "Marriage, divorce, custody, maintenance, and children's rights.",
+		law: "Marriage Act, 2014"
+	},
+	{
+		slug: "criminal",
+		title: "Criminal Justice",
+		desc: "Arrest procedures, bail, self-representation, and the right to counsel.",
+		law: "Criminal Procedure Code"
+	},
+	{
+		slug: "consumer",
+		title: "Consumer Rights",
+		desc: "Refunds, faulty goods, misleading ads, and unfair contract terms.",
+		law: "Consumer Protection Act, 2012"
+	},
+	{
+		slug: "human-rights",
+		title: "Human Rights",
+		desc: "Freedom, dignity, equality, and protection from discrimination.",
+		law: "Constitution of Kenya, 2010"
+	},
+	{
+		slug: "business",
+		title: "Business & Contracts",
+		desc: "Registering, contracts, tax basics, and dispute resolution.",
+		law: "Companies Act, 2015"
+	},
+	{
+		slug: "police",
+		title: "Police Procedures",
+		desc: "Your rights when stopped, questioned, searched, or arrested.",
+		law: "National Police Service Act"
+	},
+	{
+		slug: "constitution",
+		title: "The Constitution",
+		desc: "Bill of Rights, devolution, and citizens' civic powers.",
+		law: "Constitution of Kenya, 2010"
+	},
+	{
+		slug: "cybercrime",
+		title: "Cybercrime",
+		desc: "Online fraud, hacking, cyberbullying, and digital privacy.",
+		law: "Computer Misuse & Cybercrimes Act, 2018"
+	},
+	{
+		slug: "traffic",
+		title: "Traffic & Road Safety",
+		desc: "Licensing, fines, accidents, and insurance claims.",
+		law: "Traffic Act (Cap 403)"
+	},
+	{
+		slug: "gbv",
+		title: "Gender-Based Violence",
+		desc: "Reporting, protection orders, and survivor support.",
+		law: "Protection Against Domestic Violence Act, 2015"
+	}
+];
+function RightsPage() {
+	const [q, setQ] = (0, import_react.useState)("");
+	const filtered = topics.filter((t) => !q || t.title.toLowerCase().includes(q.toLowerCase()) || t.desc.toLowerCase().includes(q.toLowerCase()));
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "min-h-screen flex flex-col",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteNav, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+				className: "border-b bg-muted/30",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-7xl px-4 sm:px-6 py-12 lg:py-16",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-sm font-semibold text-hope uppercase tracking-wider",
+							children: "Know Your Rights"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+							className: "mt-3 text-3xl sm:text-4xl font-bold tracking-tight",
+							children: "Kenyan law, in plain language"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-3 text-muted-foreground max-w-2xl",
+							children: "Search topics, read what the law says, and learn exactly what to do next."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "relative mt-8 max-w-xl",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+								placeholder: "Search rights, laws, and topics",
+								value: q,
+								onChange: (e) => setQ(e.target.value),
+								className: "pl-9 h-12"
+							})]
+						})
+					]
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+				className: "mx-auto max-w-7xl px-4 sm:px-6 py-12 flex-1 grid gap-5 sm:grid-cols-2 lg:grid-cols-3",
+				children: filtered.map((t) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+					className: "group rounded-2xl border border-border/70 bg-card p-6 shadow-soft hover:shadow-elegant hover:-translate-y-1 transition-all",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "inline-flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-gold/15 group-hover:text-gold transition-colors",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BookOpen, { className: "h-5 w-5" })
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-4 font-semibold text-lg",
+							children: t.title
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-2 text-sm text-muted-foreground",
+							children: t.desc
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mt-4 text-xs uppercase tracking-wide text-muted-foreground",
+							children: "Governing law"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-sm font-medium",
+							children: t.law
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+							to: "/ai",
+							className: "mt-5 inline-flex items-center gap-1 text-sm font-medium text-primary group-hover:text-gold",
+							children: ["Ask Haki AI ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "h-4 w-4" })]
+						})
+					]
+				}, t.slug))
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+				className: "mx-auto max-w-7xl px-4 sm:px-6 pb-24",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "rounded-3xl gradient-hero p-10 sm:p-14 text-primary-foreground",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "max-w-xl",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+								className: "text-2xl sm:text-3xl font-bold",
+								children: "Not sure which law applies to you?"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-3 text-white/85",
+								children: "Describe your situation to Haki AI — you'll get a plain-English explanation and next steps in seconds."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								size: "lg",
+								className: "mt-6 bg-gold text-gold-foreground hover:bg-gold/90",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+									to: "/ai",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "mr-2 h-4 w-4" }), "Ask Haki AI"]
+								})
+							})
+						]
+					})
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteFooter, {})
+		]
+	});
+}
+//#endregion
+export { RightsPage as component };
